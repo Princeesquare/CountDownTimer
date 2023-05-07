@@ -1,5 +1,4 @@
 import java.time.*;
-import java.lang.*;
 
 public class CountdownTimer {
     private Duration remainingTime;
