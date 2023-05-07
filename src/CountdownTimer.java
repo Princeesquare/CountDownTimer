@@ -20,7 +20,7 @@ public class CountdownTimer {
             clearConsole();
             long minutes = remainingTime.toMinutes();
             long seconds = remainingTime.minusMinutes(minutes).getSeconds();
-            System.out.printf("Bus Arrives in: %02d:%02d\r", minutes, seconds);
+            System.out.printf("CountDown: %02d:%02d\r", minutes, seconds);
             try {
                 Thread.sleep(1000); // Pause for 1 second
             } catch (InterruptedException e) {
@@ -31,8 +31,8 @@ public class CountdownTimer {
         }
 
         clearConsole();
-        System.out.println("Bus Has Passed This Stop");
-       // System.out.println("Time's up!");
+        System.out.println("CountDown: 00:00");
+        System.out.println("Time's up!");
         isRunning = false;
     }
 

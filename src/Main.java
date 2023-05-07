@@ -3,8 +3,7 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        // Generate a random target time within the range of 20 to 25 minutes
-        //int start = 10; //+ (int) (Math.random() * 6);
+        // Taking the start time from a user
         Scanner input = new Scanner(System.in);
 
         System.out.print("Enter the start Time: ");
